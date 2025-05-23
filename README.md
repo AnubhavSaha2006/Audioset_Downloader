@@ -1,8 +1,3 @@
-# Audioset_Downloader
-Google Audioset download python script
-Based on the information provided and the contents of the [Audioset\_Downloader GitHub repository](https://github.com/AnubhavSaha2006/Audioset_Downloader), here's a comprehensive `README.md` file for your project:
-
----
 
 # Audioset Downloader
 
@@ -36,6 +31,7 @@ The repository contains the following files:
 * `balanced_train_segments.csv`: Metadata for the balanced training set.
 * `eval_segments.csv`: Metadata for the evaluation set.
 * `class_labels_indices.csv`: Mapping of class labels to their corresponding indices.
+* `requirements.txt` : consists of requirements 
 
 ## Installation
 
@@ -58,7 +54,6 @@ The repository contains the following files:
 
 
 
-\*Note: If `requirements.txt` is not present, please create one with the necessary dependencies.\*
 
 3. **Install FFmpeg:**
 
