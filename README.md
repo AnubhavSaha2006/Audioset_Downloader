@@ -14,9 +14,9 @@ A Python script to download audio clips from Google's AudioSet dataset.
 * [Configuration](#configuration)
 * [Documentation](#documentation)
 * [Examples](#examples)
+* [Final Folder Structure](#final-folder-structure).
 * [Troubleshooting](#troubleshooting)
 * [Contributors](#contributors)
-* [License](#license)
 
 ## Introduction
 
@@ -116,9 +116,33 @@ To download the evaluation set:
 ```bash
 python eval_loader.py
 ```
+## Final Folder Structure
+After running the scripts, your project directory will be structured as follows:
 
+```php
+Audioset_Downloader/
+├── balanced_train_loader.py
+├── eval_loader.py
+├── balanced_train_segments.csv
+├── eval_segments.csv
+├── class_labels_indices.csv
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── examples/
+│   └── sample_run.md
+└── audioset/
+    ├── balanced_train/
+    │   ├── <YouTubeID1>.wav
+    │   ├── <YouTubeID2>.wav
+    │   └── ...
+    └── eval/
+        ├── <YouTubeID1>.wav
+        ├── <YouTubeID2>.wav
+        └── ...
 
-
+```
 ## Troubleshooting
 
 * **FFmpeg not found:** Ensure FFmpeg is installed and added to your system's PATH.
